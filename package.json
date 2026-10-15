@@ -1,0 +1,21 @@
+{
+  "name": "cadastro-usuarios-api",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "API de cadastro de usuários com validação declarativa usando Zod",
+  "dependencies": {
+    "express": "^5.3.0",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "vitest": "^5.0.5"
+  }
+}
